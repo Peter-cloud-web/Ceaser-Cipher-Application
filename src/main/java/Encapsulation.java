@@ -14,7 +14,14 @@ public class Encapsulation {
         this.key = key;
 
     }
+    public String getWord() {
+        return word;
+    }
+    public void setWord(String str)
+    {
+        this.word = word;
 
+    }
 
 
 }
