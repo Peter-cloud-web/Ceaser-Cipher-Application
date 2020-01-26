@@ -17,7 +17,9 @@ public class DecryptTest {
 
     }
     @Test
+    public void Decrypting_shiftSentence_String() {
 
+        assertEquals(expectedOutput, testDecryption.decode("Theword", 3));
     }
 
 
