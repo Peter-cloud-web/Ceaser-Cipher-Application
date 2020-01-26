@@ -15,5 +15,10 @@ public class EncryptTest {
         String expectedOutput = "UJYJW";
         assertEquals(expectedOutput, testEncryption.encode("peter", 5));
     }
+    @Test
+    public void Encrypting_shiftSentence_String() {
+
+        assertEquals(expectedOutput, testEncryption.encode("The word", 3));
+    }
 
 }
