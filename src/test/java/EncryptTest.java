@@ -12,7 +12,7 @@ public class EncryptTest {
     @Test
     public void Encrypting_shiftWord_String() {
         Encrypt testEncryption = new Encrypt();
-        String expectedOutput = "UJYJWcommit ";
+        String expectedOutput = "UJYJW";
         assertEquals(expectedOutput, testEncryption.encode("peter", 5));
     }
 
