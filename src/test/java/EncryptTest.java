@@ -11,8 +11,9 @@ public class EncryptTest {
     }
     @Test
     public void Encrypting_shiftWord_String() {
-
+        Encrypt testEncryption = new Encrypt();
+        String expectedOutput = "UJYJWcommit ";
+        assertEquals(expectedOutput, testEncryption.encode("peter", 5));
     }
-
 
 }
