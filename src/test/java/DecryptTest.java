@@ -16,5 +16,9 @@ public class DecryptTest {
         assertEquals(expectedOutput, testDecryption.decode("peter", 3));
 
     }
+    @Test
+
+    }
+
 
 }
