@@ -35,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Decrypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="210">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -44,8 +44,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DecryptTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="255">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,9 +99,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Decrypt.java" />
         <option value="$PROJECT_DIR$/src/main/java/Encrypt.java" />
         <option value="$PROJECT_DIR$/src/test/java/EncryptTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Decrypt.java" />
         <option value="$PROJECT_DIR$/src/test/java/DecryptTest.java" />
       </list>
     </option>
@@ -182,7 +185,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.EncryptTest.Encrypting_shiftSentence_String">
+  <component name="RunManager" selected="Gradle.DecryptTest.Decrypting_shiftWord_String">
+    <configuration name="DecryptTest.Decrypting_shiftAlphabet_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;DecryptTest.Decrypting_shiftAlphabet_String&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="DecryptTest.Decrypting_shiftWord_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;DecryptTest.Decrypting_shiftWord_String&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="EncryptTest.Encrypting_shiftAlphabet_String" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -245,6 +288,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DecryptTest.Decrypting_shiftWord_String" />
+        <item itemvalue="Gradle.DecryptTest.Decrypting_shiftAlphabet_String" />
         <item itemvalue="Gradle.EncryptTest.Encrypting_shiftSentence_String" />
         <item itemvalue="Gradle.EncryptTest.Encrypting_shiftAlphabet_String" />
         <item itemvalue="Gradle.EncryptTest.Encrypting_shiftWord_String" />
@@ -280,10 +325,18 @@
     <history-entry file="EncryptTest_Encrypting_shiftSentence_String - 2020.01.26 at 17h 49m 15s.xml">
       <configuration name="EncryptTest.Encrypting_shiftSentence_String" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="DecryptTest_Decrypting_shiftAlphabet_String - 2020.01.26 at 17h 54m 27s.xml">
+      <configuration name="DecryptTest.Decrypting_shiftAlphabet_String" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DecryptTest_Decrypting_shiftAlphabet_String - 2020.01.26 at 17h 56m 32s.xml">
+      <configuration name="DecryptTest.Decrypting_shiftAlphabet_String" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="DecryptTest_Decrypting_shiftWord_String - 2020.01.26 at 17h 59m 58s.xml">
+      <configuration name="DecryptTest.Decrypting_shiftWord_String" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="53" width="792" height="694" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -293,12 +346,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20611702" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.33275563" />
+      <window_info anchor="bottom" id="Terminal" weight="0.33275563" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32928944" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32928944" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -360,15 +413,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Decrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DecryptTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
