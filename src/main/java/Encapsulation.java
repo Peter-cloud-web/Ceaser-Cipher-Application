@@ -6,4 +6,15 @@ public class Encapsulation {
         this.key = key;
         this.word = word;
     }
+    public int getKey() {
+        return key;
+    }
+    public void setKey(int key)
+    {
+        this.key = key;
+
+    }
+
+
+
 }
