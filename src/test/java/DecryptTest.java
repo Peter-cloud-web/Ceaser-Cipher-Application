@@ -9,5 +9,12 @@ public class DecryptTest {
         String expectedOutput = "b";
         assertEquals(expectedOutput, testDecryption.decode("d", 2));
     }
+    @Test
+    public void Decrypting_shiftWord_String() {
+
+
+        assertEquals(expectedOutput, testDecryption.decode("peter", 3));
+
+    }
 
 }
