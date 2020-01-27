@@ -22,7 +22,7 @@ public class App {
             String input = scanner.next();
             System.out.println("Enter key to shift letters");
             int move = scanner.nextInt();
-            System.out.println(encrypter.encode(input, move));
+            System.out.println("Your encoded message :" + encrypter.encode(input, move));
         }
         else if (choice == 2) {
 
@@ -32,11 +32,12 @@ public class App {
             String message = scanner.next();
             System.out.println("Enter a key :");
             int shiftKey = scanner.nextInt();
-            System.out.println(decrypter.decode(message,shiftKey));
+            System.out.println("Your encoded message :" + decrypter.decode(message,shiftKey));
 
         } else {
-            System.exit(0);
             System.out.println("Exiting....");
+            System.exit(0);
+
         }
 
 
